@@ -3,7 +3,7 @@ import { useState } from 'react';
 import FactorialComponent from '../components/FactorialComponent';
 export default function Home() {
   
-     const [numb, setNumb] = useState('')
+     const [numb, setNumb] = useState(5)
   return (
     <div>
         <h1>Welcome to Next.js!</h1>
